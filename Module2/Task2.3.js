@@ -59,6 +59,12 @@ console.log("Prime Numbers");
         return isPrime(num);
     });
 
+    // prime=arr.filter((num)=>{
+    //     if(isPrime(num)){
+    //         return num;
+    //     }
+    // });
+
     for(let i=0;i<prime.length;i++){
         console.log(prime[i]);
     }
